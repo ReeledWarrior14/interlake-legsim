@@ -53,3 +53,4 @@ Having updated pretty much everything, a lot of things broke for us and we neede
 - DESCRIBE users; in MySQL's database (after rake db:create and rake db:schema:load are run), this produces all the columns. Most missing columns are listed as "legacy_XXX" columns: legacy_login, legacy_crypted_password, etc. This doesn't match what needs to happen.
 - uninitialized constant ActionController::Routing, undefined method stub!() changed to stub() (Tuesday)
 - all deprecated route_for() changed to route_to() <- deprecated in ***2008-2009*** by the way
+- HAHAHA it's all a devise issue because THAT's what makes all these AuthenticatedTestHelpers and stuff that make mock_user break

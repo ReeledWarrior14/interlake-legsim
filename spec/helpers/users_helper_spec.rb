@@ -1,7 +1,7 @@
 require File.dirname(__FILE__) + '/../spec_helper'
 include ApplicationHelper
 include UsersHelper
-# include AuthenticatedTestHelper
+include AuthenticatedTestHelper # re-added 11/13, mock_user borked
 
 describe UsersHelper do
   before do
