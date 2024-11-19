@@ -58,3 +58,9 @@ ALTER TABLE chambers RENAME COLUMN scenerio TO scenario;
 - (11/15) legacy_ in many column names was removed. Side effects are unknown, but seems to work fine.
 - (11/15) \\wsl.localhost\Ubuntu\home\caden-ko\LegSim\interlake-legsim\app\assets\images\menu-instruction.png and similar files act as tabs. Need to change this, it's outdated and looks pretty bad.
 - Also, some of the text in forms is sans-serif instead of serif: why, I don't know.
+## POST-WORKING STUFF
+- (11/19) https://cha.house.gov/ some links like the former are broken: check! i haven't fixed any while we set the rest of this up, but we'll need to make that right
+- (11/19) Independent listed as a "party", changed description in all relevant places to "Independents" and flavor text to match
+- (11/19) Tutorials are borked due to linking to LegSim website externally.
+- (11/19) When revising text of chambers, need to create a new chamber to see changes.
+- (11/19) Sadly, YAML doesn't support string interpolation. Changes to chambers must generally be made manually.

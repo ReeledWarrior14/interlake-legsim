@@ -90,63 +90,62 @@ parties:
   - name: Republican Party
     abbr: R
     jurisdiction_description: The Republican Party focuses on ensuring that America remains safe, terrorists are defeated, and democracy flourishes in the world; on expanding opportunities for ownership and investment; on making tax relief permanent and ensuring greater energy independence; on increasing the affordability and accessibility of health care; on promoting works of compassion and strengthening our greatest values; on preparing students for success in life by bringing the benefits of education reform to high schools; and on helping workers adjust to a changing economy by offering flexible training options that meet their individual needs.
-  - name: Independent Party
+  - name: Independent
     abbr: I
-    jurisdiction_description: Not technically a formal party, the Independent Party is an organization for members who do not identify with any of the existing party organizations.
+    jurisdiction_description: Independents are members of the legislature who do not identify with any of the existing party organizations.
 
 committees:
   - name: Committee on Agriculture
     abbr: AG
-    jurisdiction_description: Agricultural production and research, Food safety and Child nutrition, Rural development, Water conservation.
+    jurisdiction_description: Agricultural production and research, food safety and child nutrition, rural development, water conservation.
   - name: Committee on Appropriations
     abbr: APPROP
     jurisdiction_description: Appropriation of revenues for the support of government programs.
   - name: Committee on Armed Services
     abbr: ARMSER
-    jurisdiction_description: Defense generally, Petroleum reserves, Intelligence.
+    jurisdiction_description: Defense generally, petroleum reserves, intelligence.
   - name: Committee on Education and Labor
     abbr: EDU
-    jurisdiction_description: Labor generally, Worker training, Education programs generally.
+    jurisdiction_description: Labor generally, worker training, education programs generally.
   - name: Committee on Energy and Commerce
     abbr: ENRGY
-    jurisdiction_description: Energy generally, Interstate commerce, Health including Medicaid and SCHIP (unless supported by payroll deductions), Consumer affairs, Travel and tourism.
+    jurisdiction_description: Energy generally, interstate commerce, health including Medicaid and SCHIP (unless supported by payroll deductions), consumer affairs, travel and tourism.
   - name: Committee on Financial Services
     abbr: FS
-    jurisdiction_description: Banking, Insurance, Intl Finance, Securities, Housing and Urban development.
+    jurisdiction_description: Banking, insurance, intl. finance, securities, housing and urban development.
   - name: Committee on Oversight & Government Reform
     abbr: OGR
-    jurisdiction_description: Civil service, D.C., Post Office, Government organization and accountability, Census, Official holidays.
+    jurisdiction_description: Civil service, D.C., post office, government organization and accountability, census, official holidays.
   - name: Committee on Homeland Security
     abbr: HMS
-    jurisdiction_description: Overall homeland security policy, Border security, Customs, Transportation security, Domestic preparedness, Information.
+    jurisdiction_description: Overall homeland security policy, border security, customs, transportation security, domestic preparedness, information.
   - name: Committee on Foreign Affairs
     abbr: FA
-    jurisdiction_description: Foreign relations, Export controls, Loans, International organizations, Interventions and declarations of war.
+    jurisdiction_description: foreign relations, export controls, loans, international organizations, interventions and declarations of war.
   - name: Committee on the Judiciary
     abbr: JUD
-    jurisdiction_description: Civil and criminal proceedings, Apportionment, Constitutional issues, Immigration, Prisons, Patents, Monopolies, Subversive activities.
+    jurisdiction_description: Civil and criminal proceedings, apportionment, constitutional issues, immigration, prisons, patents, monopolies, subversive activities.
   - name: Committee on Natural Resources
     abbr: NR
-    jurisdiction_description: Fisheries and wildlife, Forest reserves and national parks, Intl fishing agreements, Irrigation, Native Americans, Mining and minerals, Trans-Alaska Pipeline.
+    jurisdiction_description: Fisheries and wildlife, forest reserves and national parks, intl. fishing agreements, irrigation, Native Americans, mining and minerals, Trans-Alaska Pipeline.
   - name: Committee on Rules
     abbr: RULE
-    jurisdiction_description: "Rules and the order of business of the House. Under ordinary procedures, legislation must be considered based on its order on the calendar. The Rules committee proposes non-ordinary floor procedures. This 'special rule' takes the form of a resolution and can propose to bring a bill up out of order, prohibit amendments etc. The critical point is that a chamber majority must first approve of whatever the rules committee proposes.<br />
-    Process: The Rules Committee chair 1) drafts the special rule, 2) drafts a motion to report, and 3) schedules a vote to adopt the motion to report. The Speaker then schedules a floor vote on the special rule. If the rule is adopted by the chamber, the Speaker can then schedule consideration of the bill in a non-ordinary way."
+    jurisdiction_description: Rules and the order of business of the House.
   - name: Committee on Science & Technology
     abbr: SCI
-    jurisdiction_description: Science, Energy research and development, Environmental research, Space, Civil Aviation, Weights and measures.
+    jurisdiction_description: Science, energy research and development, environmental research, space, civil Aviation, weights and measures.
   - name: Committee on Small Business
     abbr: SBUS
     jurisdiction_description: Assistance to and protection of small business.
   - name: Committee on Transportation and Infrastructure
     abbr: TRANS
-    jurisdiction_description: Transportation generally, Coast Guard, FEMA, Navigation, Flood Control, Public Buildings, Hydroelectric power.
+    jurisdiction_description: Transportation generally, Coast Guard, FEMA, navigation, flood Control, public buildings, hydroelectric power.
   - name: Committee on Veterans' Affairs
     abbr: VA
     jurisdiction_description: Veterans generally.
   - name: Committee on Ways and Means
     abbr: W&M
-    jurisdiction_description: Taxes generally, Customs revenue, trade agreements, territories, tax exempt foundations, Social Security programs including income security and Medicare (funded by payroll deductions).
+    jurisdiction_description: Taxes generally, customs revenue, trade agreements, territories, tax exempt foundations, Social Security programs including income security and Medicare (funded by payroll deductions).
 
 survey_questions:
   - question: Government regulations usually do more good than harm.
