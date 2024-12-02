@@ -86,9 +86,9 @@ parties:
   - name: Republican Party
     abbr: R
     jurisdiction_description: The Republican Party focuses on ensuring that America remains safe, terrorists are defeated, and democracy flourishes in the world; on expanding opportunities for ownership and investment; on making tax relief permanent and ensuring greater energy independence; on increasing the affordability and accessibility of health care; on promoting works of compassion and strengthening our greatest values; on preparing students for success in life by bringing the benefits of education reform to high schools; and on helping workers adjust to a changing economy by offering flexible training options that meet their individual needs.
-  - name: Independent Party
+  - name: Independents
     abbr: I
-    jurisdiction_description: Not technically a formal party, the Independent Party is an organization for members who do not identify with any of the existing party organizations.
+    jurisdiction_description: Independents are members of the legislature who do not identify with any of the existing party organizations.
 
 committees:
   - name: Committee on Agriculture, Nutrition, and Forestry
@@ -99,37 +99,37 @@ committees:
     jurisdiction_description: Appropriation revenue for the support of the Government.
   - name: Committee on Armed Services
     abbr: ARMSER
-    jurisdiction_description: Common defense and military personnel (not including veterans), Panama Canal, National security aspects of nuclear energy and space, Strategic materials necessary for the common defense.
+    jurisdiction_description: Common defense and military personnel (not including veterans), Panama Canal, national security aspects of nuclear energy and space, strategic materials necessary for the common defense.
   - name: Committee on Banking, Housing, and Urban Affairs
     abbr: BANK
-    jurisdiction_description: Financial institutions, foreign trade promotion and export controls, Federal Reserve, Money and credit, Public and private housing, Urban development and urban mass transit.
+    jurisdiction_description: Financial institutions, foreign trade promotion and export controls, Federal Reserve, money and credit, public and private housing, urban development and urban mass transit.
   - name: Committee on Commerce, Science, and Transportation
     abbr: COMM
-    jurisdiction_description: Coast Guard, Communications, Highway safety, Interstate commerce, Marine fisheries, Nonmilitary Space, Consumer products and services, pesticides, credit, financial services, Housing, Transportation, Science, Sports, Standards and measurement.
+    jurisdiction_description: Coast Guard, communications, highway safety, interstate commerce, marine fisheries, nonmilitary Space, consumer products and services, pesticides, credit, financial services, housing, transportation, science, sports, standards and measurement.
   - name: Committee on Energy and Natural Resources
     abbr: ENG
-    jurisdiction_description: Energy policy and conservation, Extraction of minerals, Hydroelectric power and irrigation, National parks, public lands and wilderness areas, Territories of the United States.
+    jurisdiction_description: Energy policy and conservation, extraction of minerals, hydroelectric power and irrigation, national parks, public lands and wilderness areas, Territories of the United States.
   - name: Committee on Environment and Public Works
     abbr: EPW
-    jurisdiction_description: Environmental policy, Fisheries and wildlife, Recycling, Water resources, Flood control, Public buildings, Public works, Highway construction, Regional economic development.
+    jurisdiction_description: Environmental policy, fisheries and wildlife, recycling, water resources, flood control, public buildings, public works, highway construction, regional economic development.
   - name: Committee on Finance
     abbr: FIN
-    jurisdiction_description: Debt of the United States, Customs, General revenue sharing, Health, Social Security, Trade agreements,Taxes, Tariffs and import quotas.
+    jurisdiction_description: Debt of the United States, customs, general revenue sharing, health, Social Security, trade agreements, taxes, tariffs and import quotas.
   - name: Committee on Foreign Relations
     abbr: FR
-    jurisdiction_description: Embassies, Borders, Foreign aid, Red Cross, nuclear transfer policy, International law, International Organizations, Declarations of war, International commerce, Treaties and executive agreements.
+    jurisdiction_description: Embassies, borders, foreign aid, Red Cross, nuclear transfer policy, international law, international organizations, declarations of war, international commerce, treaties and executive agreements.
   - name: Committee on Health, Education, Labor, and Pensions
     abbr: HELP
-    jurisdiction_description: Education, labor, health, and public welfare, Aging, Arts and humanities, Biomedical research and development, Child labor, Equal employment opportunity, Disabilities.
+    jurisdiction_description: Education, labor, health, and public welfare, aging, arts and humanities, biomedical research and development, child labor, equal employment opportunity, disabilities.
   - name: Committee on Homeland Security and Governmental Affairs
     abbr: HSGA
-    jurisdiction_description: Homeland Security (except Coast Guard, Customs, and Immigration); Budget other than appropriations, Census, Congressional organization, Federal Civil Service, Intergovernmental relations, District of Columbia, Organization of the executive branch, Postal Service.
+    jurisdiction_description: Homeland Security (except Coast Guard, Customs, and Immigration); Budget other than appropriations, census, congressional organization, Federal Civil Service, intergovernmental relations, District of Columbia, organization of the executive branch, Postal Service.
   - name: Committee on Judiciary
     abbr: JUD
-    jurisdiction_description: Civil liberties, Constitutional amendments, Federal courts and judges, Criminal and civil laws, Holidays, Immigration, National penitentiaries, Patents, copyrights, and trademarks.
+    jurisdiction_description: Civil liberties, constitutional amendments, federal courts and judges, criminal and civil laws, holidays, immigration, national penitentiaries, patents, copyrights, and trademarks.
   - name: Committee on Rules and Administration
     abbr: RUL
-    jurisdiction_description: Administration of the Senate, Rules and procedures, Corrupt practices, Qualifications of Members, Federal elections, Government Printing Office, Presidential succession.
+    jurisdiction_description: Administration of the Senate, rules and procedures, corrupt practices, qualifications of members, federal elections, Government Printing Office, Presidential succession.
   - name: Committee on Small Business and Entrepreneurship
     abbr: SBUS
     jurisdiction_description: American small business enterprises.

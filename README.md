@@ -50,7 +50,22 @@ Having updated pretty much everything, a lot of things broke for us and we neede
 - nominations_controller_spec.rb needs to have describe LeaderNominationsController, not describe NominationsController.
 - TimeWithZone#to_s(:db) is deprecated. Use TimeWithZone#to_fs(:db) instead. <= Resolved, formerly killing screen but nonfatal.
 - On recent launches, I get a string of outputs FFFFFFFFFFFFFFFFFFF.......................FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.\*...\*\*\*...\*.....\*\*\*..\*\*\*\*\*\*..\*.\*\*.... that gradually grows at a decreasing rate: why, I don't know.
-- DESCRIBE users; in MySQL's database (after rake db:create and rake db:schema:load are run), this produces all the columns. Most missing columns are listed as "legacy_XXX" columns: legacy_login, legacy_crypted_password, etc. This doesn't match what needs to happen.
-- uninitialized constant ActionController::Routing, undefined method stub!() changed to stub() (Tuesday)
-- all deprecated route_for() changed to route_to() <- deprecated in ***2008-2009*** by the way
-- HAHAHA it's all a devise issue because THAT's what makes all these AuthenticatedTestHelpers and stuff that make mock_user break
+
+- (11/14) Generally, it looks like it's a mix of outdated files (see the branch for specifics) and Devise in particular acting up, but this is all irrelevant because today we found out that it's rails s and not rails -s that launches the server, which is rather exasperating. It does work, though.
+- (11/14) Fixed all instances of scenerio to scenario; changing the typo on your end requires rebuilding the database or running the following command in mySQL to rename the column more easily (do this):
+ALTER TABLE chambers RENAME COLUMN scenerio TO scenario;
+- (11/15) legacy_ in many column names was removed. Side effects are unknown, but seems to work fine.
+- (11/15) \\wsl.localhost\Ubuntu\home\caden-ko\LegSim\interlake-legsim\app\assets\images\menu-instruction.png and similar files act as tabs. Need to change this, it's outdated and looks pretty bad.
+- Also, some of the text in forms is sans-serif instead of serif: why, I don't know.
+## POST-WORKING STUFF
+- (11/19) https://cha.house.gov/ some links like the former are broken: check! i haven't fixed any while we set the rest of this up, but we'll need to make that right
+- (11/19) Independent listed as a "party", changed description in all relevant places to "Independents" and flavor text to match
+- (11/19) Tutorials are borked due to linking to LegSim website externally.
+- (11/19) When revising text of chambers, need to create a new chamber to see changes.
+- (11/19) Sadly, YAML doesn't support string interpolation. Changes to chambers must generally be made manually.
+- (11/19) Minor spelling and capitalization fixes in chambers text.
+- (12/2) "body" css overwritten by "pre" as seen in legislative text tab of a proposed bill
+- (12/2) Leadership nominations don't work, and leaderhsip nominations require a "dear colleague" letter instead (as stated in the application.)
+- (12/2) Commented out body of email method in chamber_role.rb. Permits viewing members again.
+- (12/2) All instances of "envilope" to "envelope".
+- (12/2) Readded <confirmable,> as tag in user.rb devise, which also restores functionality to all confirmation_url and lets the sysadmin manually approve users.
