@@ -64,3 +64,9 @@ ALTER TABLE chambers RENAME COLUMN scenerio TO scenario;
 - (11/19) Tutorials are borked due to linking to LegSim website externally.
 - (11/19) When revising text of chambers, need to create a new chamber to see changes.
 - (11/19) Sadly, YAML doesn't support string interpolation. Changes to chambers must generally be made manually.
+- (11/19) Minor spelling and capitalization fixes in chambers text.
+- (12/2) "body" css overwritten by "pre" as seen in legislative text tab of a proposed bill
+- (12/2) Leadership nominations don't work, and leaderhsip nominations require a "dear colleague" letter instead (as stated in the application.)
+- (12/2) Commented out body of email method in chamber_role.rb. Permits viewing members again.
+- (12/2) All instances of "envilope" to "envelope".
+- (12/2) Readded <confirmable,> as tag in user.rb devise, which also restores functionality to all confirmation_url and lets the sysadmin manually approve users.
